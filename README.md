@@ -27,17 +27,3 @@ Ce dépôt regroupe l'ensemble des ateliers, travaux pratiques et activités ré
 
 * **Version Python :** Python 3.11+
 * **Environnement recommandé :** `micromamba` / `conda`
-
-
----
-
-### Important : Ignorer les dossiers `.idea`
-
-In your `tree` output, PyCharm created `.idea` folders. Add them to your `.gitignore` so IDE configuration files don't clutter your GitHub commits:
-
-```powershell
-Add-Content .gitignore "`n.idea/"
-
-```
-
-Now when you run `git status`, Git will ignore `.idea` and `__pycache__`, keeping only your clean source files and `README.md`.

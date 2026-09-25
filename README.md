@@ -8,9 +8,11 @@ Ce dépôt regroupe l'ensemble des ateliers, travaux pratiques et activités ré
 
 ```text
 .
-└── Session 1/
+└── Atelier 3/
     ├── Voiture/        # Activité 1 : Modélisation POO d'une classe Voiture
     └── activite 2/     # Activité 2 : Gestion de la classe Étudiant et calculs statistiques
+    └── activite 3/     # Activité 3 : Gestion de la Class Employer utilison library datetime
+    └── activite 4/     # Activité 4 : Etudions l'heritage  
 
 ```
 

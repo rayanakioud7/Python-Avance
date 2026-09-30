@@ -1,0 +1,6 @@
+#file = open("amis.txt", "w+")
+file = open("amis.txt", "a+")
+file.write("Karim\n")
+file.write("Mohammed\n")
+file.write("Safwan\n")
+file.close()

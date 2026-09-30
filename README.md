@@ -8,11 +8,23 @@ Ce dépôt regroupe l'ensemble des ateliers, travaux pratiques et activités ré
 
 ```text
 .
+└── Atelier 2/          # Traiter les Listes
+    ├── Activite 14/       
+    ├── Activite 15/       
+    ├── Activite 16/     
+    ├── Activite 4/       
+  
+
 └── Atelier 3/
     ├── Voiture/        # Activité 1 : Modélisation POO d'une classe Voiture
     └── activite 2/     # Activité 2 : Gestion de la classe Étudiant et calculs statistiques
     └── activite 3/     # Activité 3 : Gestion de la Class Employer utilison library datetime
     └── activite 4/     # Activité 4 : Etudions l'heritage  
+.
+└── Atelier 4/          # Traiter les fichiers
+    ├── test1.py/        
+    ├── test2.py/       
+
 
 ```
 

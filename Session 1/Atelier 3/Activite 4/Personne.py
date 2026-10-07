@@ -2,10 +2,10 @@ class Personne:
 
     def __init__(self, nom, address):
         self._nom = nom
-        self._prenom = address
+        self._adress = address
 
     def afficher(self):
-        print(f"Nom: {self._nom}, Prenom: {self._prenom}")
+        print(f"Nom: {self._nom}, Adress: {self._adress},", end=" ")
 
 class Employe(Personne):
 
@@ -39,19 +39,23 @@ class Etudiant(Personne):
 
 if __name__ == '__main__':
 
-    p1 = Personne("jone", "doe")
-    p2 = Personne("Kirk", "Hammet")
+    p1 = Personne("jone", "casa")
+    p2 = Personne("Kirk", "rabat")
 
-    em1 = Employe("jimmi","Hendrix", "dh789")
-    em2 = Employe("dimebag","darrel", "dg579")
+    em1 = Employe("jimmi","casa", "dh789")
+    em2 = Employe("dimebag","tangier", "dg579")
 
-    en1 = Enseignant("Ozzy", "Osbourne", "jkhf09")
-    en2 = Enseignant("Tony", "Iommi", "rth554")
+    en1 = Enseignant("Ozzy", "agadir", "jkhf09")
+    en2 = Enseignant("Tony", "marakech", "rth554")
 
-    et1 = Etudiant("james", "Hatefield", "R867598765")
-    et2 = Etudiant("randy", "rhoades", "R867456764")
+    et1 = Etudiant("james", "laayoun", "R867598765")
+    et2 = Etudiant("randy", "usa", "R867456764")
 
     for personne in [p1, p2, em1, em2, en1, en2, et1,et2]:
         personne.afficher()
-        print('*'*20)
+        print()
 
+
+# on se basant sur les activites d'aujourdhui, les exception, les heritage les fichier propser une activite simple et pedagogique
+# exemple dentre l'agregation et la composition
+# dimonstartion de scraping

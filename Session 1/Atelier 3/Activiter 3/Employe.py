@@ -79,7 +79,7 @@ class Employe:
 
 
 if __name__ == '__main__':
-    e1 = Employe(12, 'aziz', 'akioud', '1975-12-01', '2011-06-18', 56647.98)
+    e1 = Employe(12, 'Mustapha', 'Hain', '1975-12-01', '2011-06-18', 56647.98)
     print(type(e1.DateNaissance), e1.Age(), e1.Anciennete())
     e2 = Employe(13, 'test', 't', date(1980, 1, 1), date(2020, 3, 1), 1000.0)
     print(type(e2.DateEmbauche), e2.Age())

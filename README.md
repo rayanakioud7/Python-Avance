@@ -8,6 +8,8 @@ Ce dépôt regroupe l'ensemble des ateliers, travaux pratiques et activités ré
 
 ```text
 .
+└──atelier1.ipynb 
+
 └── Atelier 2/          # Traiter les Listes
     ├── Activite 14/       
     ├── Activite 15/       
@@ -20,10 +22,11 @@ Ce dépôt regroupe l'ensemble des ateliers, travaux pratiques et activités ré
     └── activite 2/     # Activité 2 : Gestion de la classe Étudiant et calculs statistiques
     └── activite 3/     # Activité 3 : Gestion de la Class Employer utilison library datetime
     └── activite 4/     # Activité 4 : Etudions l'heritage  
-.
-└── Atelier 4/          # Traiter les fichiers
-    ├── test1.py/        
-    ├── test2.py/       
+
+└── Atelier 4/          # Traiter les fichiers et les erreurs (exceptions)
+    ├── Activite 1      
+    ├── Activite 2
+    ├── Activite 3
 
 
 ```
